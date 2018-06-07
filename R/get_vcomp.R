@@ -1,4 +1,10 @@
-library(dplyr)
+#' get_vcomp
+#'
+#' This function allows you to extract the estimated random effects from a lmer model object
+#' @param model
+#' @return A data.frame with the variance component estimates and the percentage of total variance.
+#' @import dplyr
+
 get_vcomp <- function(model){
         r_eff <- get_estimates(model)$random_effects %>%
                 filter(is.na(var2))
