@@ -10,5 +10,4 @@ ByteCompile: true
 RoxygenNote: 6.0.1
 Imports: 
     stats,
-    lme4,
-    dplyr
+    lme4

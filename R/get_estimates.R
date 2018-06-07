@@ -5,7 +5,6 @@
 #' @return A list object with fixed and random effect estimates
 #' @import stats
 #' @importFrom lme4 VarCorr
-#' @import dplyr
 #' @export
 
 get_estimates <- function(model) {
