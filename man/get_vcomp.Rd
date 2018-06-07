@@ -6,6 +6,9 @@
 \usage{
 get_vcomp(model)
 }
+\arguments{
+\item{model}{A merMod object}
+}
 \value{
 A data.frame with the variance component estimates and the percentage of total variance.
 }
