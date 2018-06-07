@@ -11,6 +11,7 @@ devtools::install_github("solmos/TFMpack")
 
 ## Example
 
+Here is an example using the LAKE data set. We fit a linear mixed model with the `lmer()` function and extract the fixed and random estimates with `get_estimates()`:
 
 ```{r}
 library(TFMpack)
